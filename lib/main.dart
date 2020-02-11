@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'src/pages/producto_page.dart';
 import 'src/blocs/provider.dart';
 import 'src/pages/home_page.dart';
 import 'src/pages/login_page.dart';
@@ -12,10 +13,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Material App',
-        initialRoute: 'login',
+        initialRoute: 'home',
         routes: {
           'login': (BuildContext context)=> LoginPage(),
           'home': (BuildContext context)=> HomePage(),
+          'producto': (BuildContext context)=> ProductoPage(),
         },
         theme: ThemeData(primaryColor: Colors.deepPurple),
       ),
