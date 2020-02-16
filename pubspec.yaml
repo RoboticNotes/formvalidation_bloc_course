@@ -36,6 +36,9 @@ dependencies:
   #image picker
   image_picker: ^0.6.3+1
 
+  #sharedPreferences
+  shared_preferences:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
